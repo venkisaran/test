@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Replace with your actual .ply file path
 ply_file = "/Users/venkitesh/Downloads/sample file/sample_ply.ply"
-
+print("hello world")
 # Step 1: Read point cloud from ASCII PLY
 def read_ply_xyz(filename):
     with open(filename, 'r') as f:
